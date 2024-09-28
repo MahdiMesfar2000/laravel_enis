@@ -12,4 +12,8 @@ class HomeController extends Controller
         return view("welcome", compact("name"));
     }
 
+    public function hello($name,$age,$gender=null){
+        return view("hello", compact("name","age","gender"));
+    }
+
 }

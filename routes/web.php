@@ -8,3 +8,5 @@ Route::get('/about', function () {
 });
 
 Route::get('/home/{name?}', [HomeController::class, 'index'])->name('home.index');
+
+Route::get('/hello/{name}/{age}/{gender?}', [HomeController::class, 'hello'])->name('home.hello');
