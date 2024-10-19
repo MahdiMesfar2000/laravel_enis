@@ -29,7 +29,7 @@
                 @endforeach
             </tbody>
         </table>
-        <p><strong>Moyenne:</strong> {{ $average }}</p>
+        <p><strong>Moyenne:</strong> {{ number_format($average, 2) }}</p>
         <p><strong>Mention:</strong> {{ $mention }}</p>
     </div>
 </body>
