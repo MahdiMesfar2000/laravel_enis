@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Produits</title>
-</head>
-<body>
+@extends('layouts.template')
+
+@section('title', 'Produits')
+
+@section('content')
     <h1>C'est la page produit</h1>
-</body>
-</html>
+@endsection

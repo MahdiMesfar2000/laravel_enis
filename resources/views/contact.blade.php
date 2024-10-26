@@ -1,6 +1,6 @@
 @extends('layouts.template')
 
-@section('title', 'Blade PHP')
+@section('title', 'Contact')
 
 @section('content')
     <div class="container mt-5">
